@@ -1,11 +1,10 @@
 import { Component } from 'react'
+import FilmRow from './FilmRow'
 
 export default class FilmList extends Component {
     render() {
         const allFilms = this.props.films.map((film) => {
-            return (<div className="film-row">
-                <h1>{film.title}</h1>
-            </div>)
+            return <FilmRow film={film} />
         })
         return (
             <>
