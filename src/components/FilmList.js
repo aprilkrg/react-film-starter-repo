@@ -3,8 +3,8 @@ import FilmRow from './FilmRow'
 
 export default class FilmList extends Component {
     render() {
-        const allFilms = this.props.films.map((film) => {
-            return <FilmRow film={film} />
+        const allFilms = this.props.films.map((film, i) => {
+            return <FilmRow film={film} key={"film-" + i}/>
         })
         return (
             <>
