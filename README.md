@@ -174,4 +174,4 @@ Now we're going to move each of these `film-row` divs into a `FilmRow` component
 ### Finished Product So Far:
 
 
-![](images/part1final.png)
+![](public/part1final.png)
